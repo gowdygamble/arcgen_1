@@ -1,6 +1,24 @@
 TODO
 
-[] numpy vs lists for example generation
-I dont think numpy arrays are actually write for this...
-
 [] example pairs
+every function should output example pairs
+input -> output subject to a rule
+
+[] stringify function 
+take the input/output
+write it to a string with <row> and <pair> tokens
+write to file
+
+[] some type of config setup to generate a dataset
+
+
+BUGS
+[] sample_task misses new interior regions created by nearby borders
+
+
+
+
+-------
+[X] numpy vs lists for example generation
+I dont think numpy arrays are actually needed for this...
+going with list of lists

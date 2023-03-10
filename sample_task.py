@@ -75,7 +75,8 @@ def generate_pixelhole_coords(height, width):
 
 input, output = fill_inner()
 
-visualize.visualize_canvas(input)
-visualize.visualize_canvas(output)
+#visualize.visualize_canvas(input)
+#visualize.visualize_canvas(output)
+visualize.visualize_io_pair(input, output)
 
 
