@@ -1,0 +1,6 @@
+task_folder: "./tasks"
+
+samples_per_task: 3
+examples_per_sample: 3
+
+output_file: "sample.txt"

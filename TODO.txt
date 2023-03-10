@@ -1,5 +1,9 @@
 TODO
 
+
+[] what is the output of ARCGEN?
+
+
 [] example pairs
 every function should output example pairs
 input -> output subject to a rule
