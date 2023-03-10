@@ -1,0 +1,6 @@
+TODO
+
+[] numpy vs lists for example generation
+I dont think numpy arrays are actually write for this...
+
+[] example pairs
