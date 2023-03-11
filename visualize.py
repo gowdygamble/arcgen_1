@@ -6,6 +6,9 @@ colors = [
             (1,0,0), # red
             (0,1,0), # green
             (0,0,1), # blue
+            (1, 0.5, 0), # orange
+            (0.5, 0, 1), # purple
+            (1,1,0), # yellow
         ]
 
 

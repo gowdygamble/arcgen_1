@@ -1,9 +1,11 @@
 import random
 
-from utils import *
+from tasks.task_utils.utils import *
 
 import visualize
 colors = visualize.colors
+
+
 
 
 
@@ -62,6 +64,9 @@ def fill_inner():
     return input_canvas, output_canvas
 
 
+def task_func():
+    i, o = fill_inner()
+    return i, o
 
 def generate_pixelhole_coords(height, width):
     r = random.randint(1, height - 2)
@@ -69,14 +74,7 @@ def generate_pixelhole_coords(height, width):
     return r, c
 
 
-
-
-
-
-input, output = fill_inner()
-
-#visualize.visualize_canvas(input)
-#visualize.visualize_canvas(output)
-visualize.visualize_io_pair(input, output)
+# input, output = fill_inner()
+# visualize.visualize_io_pair(input, output)
 
 

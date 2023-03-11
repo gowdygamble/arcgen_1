@@ -2,7 +2,7 @@ from dataset_utils import *
 
 import random
 
-from utils import *
+from tasks.task_utils.utils import *
 
 import visualize
 colors = visualize.colors

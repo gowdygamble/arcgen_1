@@ -1,6 +1,9 @@
 TODO
 
 
+[] need to understand relative imports etc
+how to dynamically get a function from a file
+
 [] what is the output of ARCGEN?
 
 

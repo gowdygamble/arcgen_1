@@ -19,6 +19,8 @@ PAIR_LINK = -5
 #END_INFERENCE
 
 
+
+
 def example_pair_to_tokens(input, output):
 
     tokens = [START_IMAGE]
