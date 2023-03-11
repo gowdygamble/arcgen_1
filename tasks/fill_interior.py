@@ -10,14 +10,14 @@ colors = visualize.colors
 
 
 def fill_inner():
-    h, w = random_canvas_shape(10,20, 10, 20)
+    h, w = random_canvas_shape(6,12, 6, 12)
     # select random background color here
     output_canvas = generate_blank(h, w)
     input_canvas = generate_blank(h, w)
 
     # generate colors
     background_color = 0
-    fill_color = random.randint(1, len(colors) - 1)
+    fill_color = 3 #random.randint(1, len(colors) - 1)
     border_color = random.randint(1, len(colors) - 1)
     while border_color == fill_color:
         border_color = random.randint(1, len(colors) - 1)

@@ -1,15 +1,16 @@
 TODO
 
+[] MAJOR BUG: fill interior cant be random color -> how can it learn the rule of what color,
+needs to be based on examples of the task ALL USING THE SAME COLOR
 
-[] need to understand relative imports etc
-how to dynamically get a function from a file
 
 [] what is the output of ARCGEN?
 
+[] should probably use a system of inheritance to manage tasks
+i.e. all tasks inherit from a shared generic task
+and then you can have task variants that inherit from each other
+also, should tasks be classes?
 
-[] example pairs
-every function should output example pairs
-input -> output subject to a rule
 
 [] stringify function 
 take the input/output
@@ -29,3 +30,10 @@ BUGS
 [X] numpy vs lists for example generation
 I dont think numpy arrays are actually needed for this...
 going with list of lists
+
+[X] need to understand relative imports etc
+how to dynamically get a function from a file
+
+[X] example pairs
+every function should output example pairs
+input -> output subject to a rule

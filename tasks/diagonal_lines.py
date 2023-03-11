@@ -7,7 +7,7 @@ colors = visualize.colors
 
 
 def diagonal_lines():
-    h, w = random_canvas_shape(10,20, 10, 20)
+    h, w = random_canvas_shape(6,12, 6, 12)
     # select random background color here
     output_canvas = generate_blank(h, w)
     input_canvas = generate_blank(h, w)
