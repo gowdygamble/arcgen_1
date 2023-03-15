@@ -60,9 +60,9 @@ for task_function in task_functions:
 
 # try pickle first
 print("writing x, y to files")
-with open("x.pkl", 'wb') as f:
+with open("x50k.pkl", 'wb') as f:
     pickle.dump(x, f)
-with open("y.pkl", 'wb') as f:
+with open("y50k.pkl", 'wb') as f:
     pickle.dump(y, f)
 # then write as string
         
